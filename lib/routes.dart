@@ -28,7 +28,6 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 
 
 const String apiBaseUrl = 'http://localhost:8000';
-// const String apiBaseUrl = 'https://mp.disi.unitn.it/blablaunitn'; 
 
 class RoutesState extends StatelessWidget {
   final UserModel userModel;

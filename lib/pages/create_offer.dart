@@ -26,7 +26,7 @@ class CreateOffer extends StatefulWidget {
 class _CreateOfferState extends State<CreateOffer> {
   final UserModel userModel;
   final String apiBaseUrl = 'http://localhost:8000';
-  // static const String apiBaseUrl = 'https://mp.disi.unitn.it/blablaunitn'; 
+  
   // The apibaseurl can be removed if neccesary use just one defined in the routes.dart file or better create an
   // ApiServiceClass that handles all api calls.
   LatLng? startPoint;

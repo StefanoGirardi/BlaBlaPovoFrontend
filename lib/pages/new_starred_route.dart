@@ -24,7 +24,7 @@ class NewStarredRoute extends StatefulWidget {
 class _NewStarredRouteState extends State<NewStarredRoute> {
   final UserModel userModel;
   final String apiBaseUrl = 'http://localhost:8000';
-  // static const String apiBaseUrl = 'https://mp.disi.unitn.it/blablaunitn'; 
+  
 
   LatLng? startPoint;
   LatLng? arrivalPoint;

@@ -56,7 +56,7 @@ class User {
 class UserModel extends ChangeNotifier {
   User? currentUser;
   final String apiBaseUrl = 'http://localhost:8000';
-  // static const String apiBaseUrl = 'https://mp.disi.unitn.it/blablaunitn'; 
+  // static const String 
   final JwtAuthService  jwt = JwtAuthService();
 
   Future<void> fetchUsers() async {

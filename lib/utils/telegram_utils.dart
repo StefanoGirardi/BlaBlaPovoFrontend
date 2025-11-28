@@ -45,7 +45,7 @@ class ChatResponse {
 }
 
 class TelegramApiService {
-  // static const String apiBaseUrl = 'https://mp.disi.unitn.it/blablaunitn';  
+    
   static const String apiBaseUrl = 'http://localhost:8000';
   static Future<ChatResponse> initiateChat(ChatRequest request) async {
     final client = http.Client();
